@@ -1,0 +1,13 @@
+ul.menu {list-style:none; margin:0; padding:0}
+ul.menu * {margin:0; padding:0}
+ul.menu a {display:block; color:#fff; text-decoration:none}
+ul.menu li {position:relative; float:left; margin-right: -17px;margin-top: 11px;}
+ul.menu ul {position:absolute; top:36px; left:0; display:none; opacity:0; list-style:none}
+ul.menu ul li {position:relative; border-top:1px solid #676969; width:112px; margin:0}
+ul.menu ul li a {display:block; padding:5px 3px 5px 5px; text-align:center; background-color:#494d4e;   font-size:25px;}
+ul.menu ul li a:hover {background-color:#9c9c9c}
+ul.menu ul ul {left:148px; top:-1px}
+ul.menu .menulink {padding:0px 5px 0px 7px; text-align:center; background:url(images/header.gif); width:114px}
+ul.menu .menulink:hover, ul.menu .menuhover {background:url(images/header_over.gif;)}
+ul.menu .sub {background:#494d4e url(images/arrow.gif) 136px 8px no-repeat; font-size:25px;}
+ul.menu .topline {border-top:1px solid #aaa; }

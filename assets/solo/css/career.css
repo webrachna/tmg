@@ -1,0 +1,110 @@
+/*Start Careers Section*/
+.careerPage .logo {
+  float: inherit;
+  margin: 10px auto 0;
+  width: 100%;
+  text-align: center; }
+
+.careerPage .backBtn {
+  font-family: verdana;
+  font-size: 14px; }
+  .careerPage .backBtn:hover {
+    text-decoration: none; }
+
+.switchgroup {
+  display: none; }
+
+.applyNowBtn {
+  background: #ffcd00;
+  border: 1px solid #d7a703;
+  padding: 5px 30px;
+  color: #000;
+  display: inline-block;
+  margin-top: 20px;
+  text-transform: capitalize; }
+  .applyNowBtn:hover {
+    text-decoration: none;
+    background: #1595ac;
+    color: #fff;
+    border: 1px solid #057ab7; }
+
+.careerPost {
+  border: 1px solid #f2f2f2;
+  border-bottom-color: #d9d9d9;
+  border-bottom-width: 5px;
+  padding: 20px;
+  font-family: verdana;
+  font-size: 14px;
+  margin-top: 20px; }
+  .careerPost:first-child {
+    margin: 0; }
+  .careerPost .userPic {
+    border: 1px solid #f2f2f2;
+    text-align: center; }
+    .careerPost .userPic i {
+      font-size: 100px;
+      color: #e7e4e4;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: -20px;
+      margin: 0 auto; }
+  .careerPost .postDetails ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .careerPost .postDetails ul li {
+      overflow: hidden;
+      line-height: 22px;
+      margin-top: 10px; }
+      .careerPost .postDetails ul li:first-child {
+        margin: 0; }
+      .careerPost .postDetails ul li span a:hover {
+        text-decoration: none; }
+      .careerPost .postDetails ul li a {
+        float: left; }
+      .careerPost .postDetails ul li label {
+        width: 15%;
+        float: left;
+        display: block;
+        color: #3e72f6;
+        cursor: default; }
+        .careerPost .postDetails ul li label + span {
+          width: 85%;
+          float: left;
+          display: block; }
+
+.careerPostDetails {
+  border: 1px solid #f2f2f2;
+  padding: 20px;
+  font-family: verdana; }
+  .careerPostDetails .postDetailsMore {
+    font-size: 14px; }
+    .careerPostDetails .postDetailsMore label {
+      display: block;
+      color: #3e72f6;
+      cursor: default;
+      margin-bottom: 0; }
+    .careerPostDetails .postDetailsMore ul {
+      list-style: none; }
+      .careerPostDetails .postDetailsMore ul li {
+        margin-top: 20px; }
+        .careerPostDetails .postDetailsMore ul li:first-child {
+          margin: 0; }
+    .careerPostDetails .postDetailsMore .moreDetails {
+      margin-top: 20px; }
+    .careerPostDetails .postDetailsMore ul.listing {
+      list-style: none; }
+      .careerPostDetails .postDetailsMore ul.listing li {
+        margin-top: 5px;
+        font-size: 14px; }
+        .careerPostDetails .postDetailsMore ul.listing li:first-child {
+          margin: 0; }
+        .careerPostDetails .postDetailsMore ul.listing li:before {
+          content: "\f105";
+          font-family: FontAwesome;
+          margin-right: 10px; }
+
+@media (max-width: 768px) {
+  .careerPost .postDetails ul li label {
+    width: 100%; } }

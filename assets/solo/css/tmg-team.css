@@ -1,0 +1,18 @@
+#dvEmpPhoto {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 2px #888;
+  width: 15%; }
+
+#dvEmpHeaders {
+  text-align: center; }
+
+#dvEmpName {
+  font-size: 16px;
+  font-weight: bolder; }
+
+#dvEmpTitle {
+  color: orange; }
+
+#element_to_pop_up {
+  display: none; }

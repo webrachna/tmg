@@ -1,0 +1,310 @@
+@charset "utf-8";
+
+
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.left, .right 											{width:100%; text-align:center;}
+.services h4											{font-size:16px;}
+
+header 													{width:100%; margin:0 auto;}
+.container 												{width:100%; padding:0 5%;}
+.logo													{margin:10px 0 0 0; text-align:left; float:right;}
+
+/* =Menu */
+#menu             									{float:none; width:200px; position:fixed; top:60px; left:-200px; z-index:9999; background-color:rgba(0,0,0,0.9); min-height:100%;}
+
+#menu #nav a            							{padding:10px; color:#fff;}
+#menu #nav a:hover									{background-color:#309ad0; color:#fff; text-decoration:none;}
+#menu ul          									{margin:0; padding:0; overflow-y:auto;}
+#menu ul li      									{list-style:none; float:none; padding:0 0 0 0; border-top:1px solid #333;}
+#menu ul li:first-child								{border:none;}
+.respMenu a          								{width:30px; height:30px; padding:5px; display:block; position:fixed; top:10px; left:-13px; z-index:9999; color:#888; font-size:28px; text-align:center; font-weight:normal;}
+.respMenu a:hover, .respMenu a:focus				{left:-5px; color:#06f;}
+
+
+
+
+#banner													{position:relative; min-height:180px;}
+
+
+.flex-caption .bannerHead								{font-size:20px;}
+.flex-caption .bannerHead span 							{font-size:22px;}
+.flex-caption .bannerHead								{line-height:18px;}
+.flex-control-nav 										{bottom: -3%;}
+.flexslider .slides img 								{width: 150%; max-width:150%; margin-left:-40%;}
+
+.nissanDetails, .hearst 								{width:80%; left:0; right:0; top:0; bottom:0; height:150px;}
+.nissanDetails .bannerHead, .hearst .bannerHead			{font-size:14px;}
+.nissanDetails .bannerHead span, 
+.hearst .bannerHead span 								{font-size:16px;}
+
+.clientsPanel, .bodyHolder 								{margin:0 auto; padding:0; width:90%; }
+.clientsPanel											{text-align:center;}
+
+.bannerContentBlock, .contentBlock						{padding:30px 0;}
+
+.bannerContentBlock, .contentBlock						{position:static;}
+.bannerContentBlock h1, .contentBlock h1				{font-size:30px; position:absolute; left:0; top:0; right:0; bottom:0; margin:7% auto 20px; z-index:999; display:table;}
+.bannerContentBlock h2, .contentBlock h2				{margin-top:0;}
+
+.bannerContentBlock h1, .contentBlock h1,
+.bannerContentBlock h2, .contentBlock h2				{width:90%; margin:0 auto;}
+
+
+.bannerContentLeft, .bannerContentRight					{width:94%; text-align:center; margin:0 auto;}
+.mainSlidePanel figure 									{height:135px; overflow:hidden;}
+.mainSlidePanel figure img 								{width:100%; opacity:0.8; /*IE 8*/ -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";	/*IE 5-7*/	filter:alpha(opacity=80);}
+
+.whatWeDoPointers										{margin:0; padding:0;}
+.whatWeDoPointers ul									{width:355px; margin:30px auto 0;}
+
+
+.clientsPanel ul li 									{width:49.5%;}
+
+.servicesCycle											{display:none;}
+.services > ul > li 									{width:100%; height:auto; padding:5%; background:#f6f7f7;}
+
+
+.timeline ul 											{width:96%; margin:0 auto; padding:0;}
+.timeline ul li 										{width:100%; margin-bottom:40px; text-align:center;}
+.timeline ul li:nth-child(2n)							{margin-top:0; text-align:center;}
+
+.timeline ul li figure, 
+.timeline ul li:nth-child(2n) figure					{margin:0 auto 20px; overflow:hidden; display:block;}
+
+.timeline ul li figure + .innerData						{width:100%;}
+
+
+#contactUs .bannerContentBlock 							{background:#3ba4ca;}
+.contactPan > ul > li 									{width:100%; padding:2% 5% 0; margin-bottom:3%;}
+
+.lightBox 												{width:86%; height:90%;}
+.privacyData											{height:350px;}
+
+
+
+
+
+
+/* ==========================================================================
+   =Mobile Layout: 480px to 600px. Inherits styles from: Mobile Layout.
+   ========================================================================== */
+@media only screen and (min-width: 481px) {
+
+/*=Start Body Wraper*/
+.flexslider .slides img 								{width: 100%; max-width:100%; margin-left:0; animation:120s linear 0s normal none infinite zoomin;}
+.flex-caption .bannerHead								{line-height:22px;}
+
+.nissanDetails .bannerHead, .hearst .bannerHead			{font-size:20px;}
+.nissanDetails .bannerHead span, 
+.hearst .bannerHead span 								{font-size:24px;}
+
+.bannerContentBlock h1, .contentBlock h1				{font-size:36px;}
+
+
+
+}
+
+/* ==========================================================================
+   =Tablet Layout: 600px to 800px. Inherits styles from: Mobile Layout.
+   ========================================================================== */
+@media only screen and (min-width: 601px) {
+.services h4											{font-size:18px;}
+.mainLoginBoxWraper										{margin:0 auto; width:90%;}
+
+.flex-caption .bannerHead								{line-height:28px;}
+
+.left, .right 											{width:50%; float:left; text-align:left;}
+.right													{text-align:right;}
+
+
+
+}
+
+
+/* ==================================================================================================
+   =Tablet Layout: 800px to a max of 1024px.  Inherits styles from: Tablet Layout.
+   ================================================================================================== */
+@media only screen and (min-width: 801px) {
+.flex-control-nav 										{bottom: 2%;}
+
+
+.flex-caption .bannerHead								{font-size:30px;}
+.flex-caption .bannerHead span 							{font-size:36px;}
+.nissanDetails .bannerHead, .hearst .bannerHead			{font-size:24px;}
+
+.bannerContentBlock h1, .contentBlock h1				{font-size:42px;}
+
+.whatWeDoPointers ul									{width:90%;}
+.whatWeDoPointers li 									{width:355px; float:left;}
+.whatWeDoPointers li:nth-child(even)					{margin-left:50px;}
+
+.clientsPanel											{text-align:left;}
+.clientsPanel ul li 									{width:33%;}
+
+
+.contactPan li article 									{margin-left:30px;}
+.contactPan li article:first-child 						{margin:0;}
+.contactPan > ul > li 									{width:auto; padding:10px 10px 0; margin-left:3%; min-height:380px;}
+.contactPan > ul > li:first-child 						{margin:0;}
+.contactPan li article 									{margin-left:50px;}
+
+
+.lightBox 												{width:700px; height:90%;}
+.privacyData											{height:450px;}
+
+.mainBanner												{height:625px;}
+
+
+
+
+}
+
+
+
+
+/* ==================================================================================================
+   =Desktop Layout: 1025px to a max of 1380px.  Inherits styles from: Tablet Layout and Small Screen Layout.
+   ================================================================================================== */
+@media only screen and (min-width: 1025px) {
+.clientsPanel, .bodyHolder 								{margin:0 auto; padding:0; width:1170px; }
+
+.container 												{width:1170px; padding:0 15px;}
+.logo		 											{width:28.57142857142857%; float:left; text-align:left;}
+
+.respMenu               								{display:none;}
+#menu                   								{width:71.42857142857143%; position:static; top:auto; right:auto; background-color:inherit; color:#fff; float:right;}
+#menu #nav												{float:right; margin:0;}
+#menu #nav a            								{float:left; color:#000; background:none; border-bottom:none; display:inline-block; padding:15px 10px;}
+#menu #nav a:hover, #menu #nav a.active					{background-color:inherit; color:#06f;}
+#menu ul                								{margin:0; padding:0; list-style:none; float:right;}
+#menu ul li             								{list-style:none; float:left; padding:0; border:none;}
+#menu .closMenu         								{display:none;}
+
+
+
+#banner													{height:100%;}
+
+.flex-caption .bannerHead								{line-height:140%;}
+
+.hearst .bannerHead span 								{font-size:48px;}
+.flex-caption .bannerHead								{font-size:40px;}
+.flex-caption .bannerHead span 							{font-size:36px;}
+.nissanDetails .bannerHead, .hearst .bannerHead			{font-size:24px;}
+
+
+.nissanDetails											{width:700px; bottom:100px; left:-550px;}
+.hearst 												{width:700px;}
+
+
+
+
+.bannerContentBlock h1, .contentBlock h1				{font-size:48px; position:relative; margin:0 auto 10px; display:inherit;} 
+.bannerContentBlock h2, .contentBlock h2				{width:1170px;}
+
+
+.bannerContentBlock										{position:absolute; z-index:999; text-align:center; top:0; left:0; right:0;}
+.bannerContentLeft, .bannerContentRight					{width:45%; text-align:left;}
+.bannerContentLeft										{margin-left:3%; float:left;}
+.bannerContentRight										{margin-right:3%; float:right;}
+.mainSlidePanel figure 									{height:auto; overflow:inherit;}
+.mainSlidePanel figure img 								{margin:0; opacity:1; /*IE 8*/ -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";	/*IE 5-7*/	filter:alpha(opacity=100);}
+
+.whatWeDoPointers										{right:0; top:-128px; float:right; background:url(../images/we-do-pointers.png) no-repeat right top; min-height:719px; width:52%;}
+.whatWeDoPointers ul									{position:absolute; margin:0; right:0; top:50px; width:355px;}
+.whatWeDoPointers li 									{width:355px; float:inherit;}
+.whatWeDoPointers li:first-child						{margin:0;}
+.whatWeDoPointers li:nth-child(even)					{margin-left:0;}
+
+
+.clientsPanel ul li 									{width:24.5%;}
+.servicesCycle											{display:block;}
+.services > ul > li 									{width:50%; min-height:275px; padding:2%; background:none;}
+.services > ul > li:first-child							{padding:2%;}
+
+.mar5 											{margin-left:5%;}
+.mar10	 										{margin-left:10%;}
+.mar15	 										{margin-left:15%;}
+.mar20	 										{margin-left:20%;}
+.mar25	 										{margin-left:25%;}
+.mar30	 										{margin-left:30%;}
+.mar35	 										{margin-left:35%;}
+.mar40	 										{margin-left:40%;}
+.mar45	 										{margin-left:45%;}
+
+.pad5 											{padding-left:5%;}
+.pad10	 										{padding-left:10%;}
+.pad15	 										{padding-left:15%;}
+.pad20	 										{padding-left:20%;}
+.pad25	 										{padding-left:25%;}
+.pad30	 										{padding-left:30%;}
+.pad35	 										{padding-left:35%;}
+.pad40	 										{padding-left:40%;}
+.pad45	 										{padding-left:45%;}
+
+
+
+
+.timeline ul 											{width:auto;}
+.timeline ul li 										{width:50%; text-align:left; margin-bottom:0; border-right:1px solid #dfdfdf;}
+
+.timeline ul li:nth-child(2n)							{border-left:1px solid #dfdfdf; border-right:none; margin-top:-60px; position:relative; left:-1px; text-align:right;}
+.timeline ul li figure 									{float:left; margin-right:30px;}
+.timeline ul li:nth-child(2n) figure 					{float:right; margin-right:0; margin-left:30px;}
+.timeline ul li figure + .innerData						{width:398px; float:left;}
+
+.timeline ul li:nth-child(2n) h4, 
+.timeline ul li h4										{border-bottom:1px solid #dfdfdf; line-height:30px; padding-right:20px}
+.timeline ul li:nth-child(2n) h4 + p					{padding-left:20px; padding-right:0;}
+
+.timeline ul li h4 + p									{padding-right:20px}
+
+
+.company .executive-team ul .executive .exec-circle		{box-shadow:0 0 4px rgba(0,0,0,0.5); -moz-box-shadow:0 0 4px rgba(0,0,0,0.5); -ms-box-shadow:0 0 4px rgba(0,0,0,0.5); -o-box-shadow:0 0 4px rgba(0,0,0,0.5); -webkit-box-shadow:0 0 4px rgba(0,0,0,0.5);}
+
+.company .executive-team 								{height: auto; min-height:750px;}
+
+
+#contactUs .bannerContentBlock 							{background:none;}
+.contactPan > ul > li 									{padding:10px 50px 0; margin-left:3%; margin-bottom:0; min-height:350px;}
+.contactPan li article 									{margin-left:50px;}
+
+
+
+}
+
+
+/* ==================================================================================================
+   =Desktop Layout: from 1380px to above.  Inherits styles from: Desktop Layout.
+   ================================================================================================== */
+@media only screen and (min-width: 1380px) {
+
+
+	
+}
+
+
+

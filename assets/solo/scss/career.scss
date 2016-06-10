@@ -1,0 +1,150 @@
+/*Start Careers Section*/
+$greyBoder:1px solid #f2f2f2;
+$paddAll:20px;
+$textWhite:#fff;
+$textBlack:#000;
+$btnPadding:5px 30px;
+$applyBtnBg:#ffcd00;
+$buttonBgHover:#1595ac;
+$buttonHoverBorder:1px solid #057ab7;
+$applyBtnBorder:1px solid #d7a703;
+
+.careerPage{
+	.logo{
+		float:inherit;
+		margin:10px auto 0;
+		width:100%;
+		text-align:center;
+	}
+	.backBtn{
+		font-family:verdana;
+		font-size:14px;
+		&:hover{
+		text-decoration:none;
+		}
+	}
+}
+.switchgroup{
+	display:none;
+}
+.applyNowBtn{
+	background:$applyBtnBg; 
+	border:$applyBtnBorder; 
+	padding:$btnPadding;
+	color:$textBlack;
+	display:inline-block;
+	margin-top:20px;
+	text-transform:capitalize;
+	&:hover{
+		text-decoration:none;
+		background:$buttonBgHover;
+		color:$textWhite;
+		border:$buttonHoverBorder;
+	}
+}
+.careerPost	{
+	border:$greyBoder; 
+	border-bottom-color:#d9d9d9; 
+	border-bottom-width:5px; 
+	padding:$paddAll;
+	font-family:verdana;
+	font-size:14px;
+	margin-top:20px;
+	&:first-child{
+		margin:0;
+	}
+	.userPic{
+		border:$greyBoder;
+		text-align:center;
+		i{
+			font-size:100px;
+			color:#e7e4e4;
+			position:relative;
+			left:0;
+			right:0;
+			top:-20px;
+			margin:0 auto;	
+		}
+	}
+	.postDetails{
+		ul{
+			list-style:none;
+			margin:0;
+			padding:0;
+			li{
+				overflow:hidden;
+				line-height:22px;
+				margin-top:10px;
+				&:first-child{
+					margin:0;
+				}
+				span{
+					a:hover{
+						text-decoration:none;
+					}
+				}
+				a{
+				float:left;
+				}
+				label{
+					width:15%;
+					float:left;
+					display:block;
+					color:#3e72f6;
+					cursor:default;
+					+ span{
+						width:85%;
+						float:left;
+						display:block;
+					}
+				}
+			}
+		}
+	}
+}
+.careerPostDetails{
+	border:$greyBoder;
+	padding:$paddAll;
+	font-family:verdana;
+		.postDetailsMore{
+			font-size:14px;
+			label{
+				display:block;
+				color:#3e72f6;
+				cursor:default;
+				margin-bottom:0;
+			}
+			ul{
+				list-style:none;
+				li{
+					margin-top:20px;
+					&:first-child{
+						margin:0;
+					}
+				}
+			}
+			.moreDetails{
+				margin-top:20px;
+			}
+			ul.listing{
+				list-style:none;
+				li{
+					margin-top:5px;
+					font-size:14px;
+					&:first-child{
+						margin:0;
+					}
+					&:before {
+						content: "\f105";
+						font-family:FontAwesome;
+						margin-right:10px;
+		     		}
+	     		}
+			}
+		}
+}
+@media (max-width: 768px) {
+  .careerPost .postDetails ul li label{
+  	width:100%;
+  }
+}

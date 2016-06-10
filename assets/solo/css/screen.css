@@ -1,0 +1,668 @@
+
+
+.icon-btn-exit {
+	height: 29px!important;
+	width: 29px!important;
+	position: absolute;
+	left: -7px;
+	top: -7px;
+	cursor: pointer;
+	background:url(../images/close-button.png) no-repeat center top!important;
+	
+}
+
+.icon-btn-exit-white {
+	background-position: 0 -2471px
+}
+.icon-btn-exit {
+	background-position: 0 -2515px
+}
+.icon-btn-more {
+	background-position: 0 -2196px
+}
+
+
+*, :before, :after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+
+.persistant-navigation #main {
+	overflow-x: hidden
+}
+.persistant-navigation #main #header {
+	position: absolute;
+	z-index: 102;
+	width: 100%;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	transition-duration: .5s
+}
+
+
+.company .executive-team:before, .company .executive-team:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+
+
+.company .executive-team {
+	position: relative;
+	height: auto;
+}
+
+.company .executive-team .executive-profile {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -1000px, 0);
+	-moz-transform: translate3d(0, -1000px, 0);
+	-ms-transform: translate3d(0, -1000px, 0);
+	-o-transform: translate3d(0, -1000px, 0);
+	transform: translate3d(0, -1000px, 0);
+	visibility: hidden;
+	width: 700px;
+	background: 0;
+	position: absolute;
+	left: 50%;
+	top:0;
+	margin-left: -350px;
+	display:inline-block;
+	z-index: 11;
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden
+}
+.company .executive-team .executive-profile .icon-btn-exit {
+	display: none
+}
+.company .executive-team .executive-profile .executive-avatar {
+	text-align: center;
+	margin-bottom: 20px;
+	margin:0 auto;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden
+}
+.company .executive-team .executive-profile .executive-avatar img {
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+*vertical-align:auto;
+	zoom: 1;
+*display:inline;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	width: 241;
+	height: auto;
+	overflow: hidden;
+}
+.company .executive-team .executive-profile .executive-twitter-handle {
+	font-weight: 700;
+	font-size: 13px;
+	text-align: center;
+	color: #494e50;
+
+
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden
+}
+.company .executive-team .executive-profile .executive-twitter-handle:before {
+	content: '';
+	display: inline-block;
+	width: 17px;
+	height: 14px;
+	margin-bottom: -2px;
+	background-position: 0 -2167px;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden
+}
+.company .executive-team .executive-profile .executive-twitter-handle a {
+	text-decoration: none
+}
+.company .executive-team .executive-profile .executive-twitter-handle a:hover {
+	text-decoration: underline
+}
+.company .executive-team .executive-profile hgroup {
+	text-align: center;
+	border-bottom: 1px solid #d1d2d4;
+	padding-bottom: 20px
+}
+.company .executive-team .executive-profile hgroup h1 {
+	margin: 20px auto 0;
+	font-size: 53px
+}
+.company .executive-team .executive-profile hgroup h4 {
+	margin: 0
+}
+.company .executive-team .executive-profile hgroup h5 {
+	text-align: center
+}
+.company .executive-team .executive-profile p {
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 0;
+	display: none;
+	line-height:25px;
+}
+.company .executive-team .executive-profile p.bio-intro {
+	display: block;
+	
+}
+.company .executive-team .executive-profile .expand-profile, .company .executive-team .executive-profile .contract-profile {
+	font-size: 13px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 5px;
+	display: none
+}
+.company .executive-team .executive-profile .contract-profile {
+	display: none
+}
+.company .executive-team ul {
+	list-style-type: none
+}
+.company .executive-team ul .executive {
+	position: absolute;
+	left: 50%;
+	top: 50px;
+	margin-left: -92px;
+	border: 0 solid #9bcbea;
+	cursor: pointer;
+	opacity: 0;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+*vertical-align:auto;
+	zoom: 1;
+*display:inline;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	width: 181px;
+	height: 181px;
+	overflow: hidden;
+	
+	-webkit-transition-property: opacity, left, top, margin;
+	-moz-transition-property: opacity, left, top, margin;
+	-o-transition-property: opacity, left, top, margin;
+	transition-property: opacity, left, top, margin;
+	
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+	
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+	
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0)
+}
+.company .executive-team ul .executive a {
+	height: 100%;
+	width: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	z-index: 3
+}
+.company .executive-team ul .executive a:focus, .company .executive-team ul .executive a:active {
+	border: 0;
+	outline: 0
+}
+.company .executive-team ul .executive .exec-circle {
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+	*vertical-align:auto;
+	zoom: 1;
+	*display:inline;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	width: 181px;
+	height: 181px;
+	overflow: hidden;
+	line-height: 1.2;
+	overflow: hidden
+}
+.company .executive-team ul .executive .exec-circle .exec-info {
+	position: absolute;
+	background: #9bcbea;
+	color: #fff;
+	top: 0;
+	left: 0;
+	text-align: center;
+	height: 100%;
+	padding: 55px 12px;
+	opacity: 0;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+*vertical-align:auto;
+	zoom: 1;
+*display:inline;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	width: 100%;
+	overflow: hidden;
+	-webkit-transform: scale(0, 0);
+	-moz-transform: scale(0, 0);
+	-ms-transform: scale(0, 0);
+	-o-transform: scale(0, 0);
+	transform: scale(0, 0);
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s
+}
+.company .executive-team ul .executive .exec-circle .exec-info h3 {
+	font-size: 16px;
+	margin: 5px
+}
+.company .executive-team ul .executive .exec-circle .exec-info p {
+	font-size: 13px;
+	margin: 5px
+}
+.company .executive-team ul .executive:hover .exec-info, .company .executive-team ul .executive.active .exec-info {
+	-webkit-transform: scale(1, 1);
+	-moz-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+	-o-transform: scale(1, 1);
+	transform: scale(1, 1);
+	opacity: 1
+}
+.company .executive-team ul .executive:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	border: 2px solid #9bcbea;
+	opacity: 0;
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+*vertical-align:auto;
+	zoom: 1;
+*display:inline;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	width: 181px;
+	height: 181px;
+	overflow: hidden;
+	-webkit-transform: scale(1.15, 1.15);
+	-moz-transform: scale(1.15, 1.15);
+	-ms-transform: scale(1.15, 1.15);
+	-o-transform: scale(1.15, 1.15);
+	transform: scale(1.15, 1.15);
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	transition-duration: .5s;
+	-webkit-box-shadow: inset 0 0 0 5px #fff;
+	-moz-box-shadow: inset 0 0 0 5px #fff;
+	box-shadow: inset 0 0 0 5px #fff
+}
+.company .executive-team ul .executive:hover:after, .company .executive-team ul .executive.active:after {
+	display: block;
+	opacity: 1;
+	-webkit-transform: scale(1.01, 1.01);
+	-moz-transform: scale(1.01, 1.01);
+	-ms-transform: scale(1.01, 1.01);
+	-o-transform: scale(1.01, 1.01);
+	transform: scale(1.01, 1.01)
+}
+.company .executive-team ul .no-click {
+	cursor: auto
+}
+.company .executive-team ul #sean-eilers {
+	opacity: 1;
+	z-index: 10
+}
+.company .dispersed {
+	padding:0;
+}
+.company .dispersed ul .executive {
+	opacity: 1;
+	overflow: visible
+}
+.company .dispersed #sean-eilers {
+	z-index: 0
+}
+.company .dispersed #tom-callagy {
+	left: 100%;
+	margin-left: -181px;
+	top: 115px
+}
+.company .dispersed #chris-parry {
+	left: 0;
+	top: 115px;
+	margin: 0
+}
+.company .dispersed #gabe-bletnitsky {
+	left: 71%;
+	top: 220px;
+	margin-left: -91px
+}
+.company .dispersed #rahul-richhi {
+	top: 355px
+}
+.company .dispersed #thomas-judd {
+	top: 375px;
+	left: 0;
+	margin: 0;
+	
+}
+.company .dispersed #danielle-carire {
+	left: 29%;
+	margin-left: -91px;
+	top: 220px;
+}
+.company .dispersed #tara-boyer {
+	top: 375px;
+	left: 100%;
+	margin-left: -181px
+}
+.company .dispersed #shivani-richhi {
+	top: 480px;
+	left: 29%;
+	margin-left: -91px
+}
+.company .profile-display .executive-profile {
+	opacity: 1;
+	top: 0;
+	padding:10px;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	-o-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	transition-duration: 1s;
+	height: auto;
+	visibility: visible;
+	background: #fff;
+	background: rgba(255,255,255,.9)
+}
+.company .profile-display .executive-profile .icon-btn-exit {
+	display: block
+}
+.company .profile-display ul .executive {
+	-webkit-transition-property: opacity, left, top, margin;
+	-moz-transition-property: opacity, left, top, margin;
+	-o-transition-property: opacity, left, top, margin;
+	transition-property: opacity, left, top, margin;
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	transition-duration: .5s
+}
+.company .profile-display ul #sean-eilers {
+	left: 0;
+	top: 50px;
+	margin: 0;
+	z-index: 0
+}
+.company .profile-display ul #tom-callagy {
+	top: 50px;
+	left: 100%;
+	margin-left: -181px
+}
+.company .profile-display ul #chris-parry {
+	left: 0;
+	top: 175px;
+	margin: 0
+}
+.company .profile-display ul #gabe-bletnitsky {
+	left: 100%;
+	top: 175px;
+	margin-left: -181px
+}
+.company .profile-display ul #thomas-judd {
+	left: 0;
+	top: 425px;
+	margin: 0
+}
+.company .profile-display ul #danielle-carire {
+	left: 0;
+	top: 300px;
+	margin: 0
+}
+.company .profile-display ul #rahul-richhi {
+	left: 100%;
+	top: 300px;
+	margin-left: -181px
+}
+.company .profile-display ul #tara-boyer {
+	left: 100%;
+	top: 425px;
+	margin-left: -181px
+}
+.company .profile-display ul #shivani-richhi {
+	left: 0;
+	top: 550px;
+	margin: 0
+}
+.company .company-story p {
+	font-size: 14px;
+	margin: 10px 0
+}
+.lt-ie10 .company .executive-team .executive-profile {
+	top: 0
+}
+.lt-ie10 .company .dispersed ul #chris-parry {
+	top: 115px
+}
+.lt-ie10 .company .profile-display ul #chris-parry {
+	top: 175px
+}
+@media (min-width:0) and (max-width:1080px) {
+.company .executive-team {
+	width: 100%
+}
+.company .executive-team .executive-profile .profile-content .executive-avatar img {
+	height: auto;
+	overflow: hidden;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%
+}
+
+}
+@media (min-width:0) and (max-width:1023px) {
+.company .section-lead h1 {
+	font-size: 50px
+}
+.company .executive-team {
+	padding: 0 0 0;
+}
+.company .executive-team ul {
+	width: 100%;
+	padding: 0;
+	margin: 0 auto
+}
+.company .executive-team ul .executive {
+	position: relative!important;
+	margin: 5px 0!important;
+	padding: 0;
+	width: 100%;
+	height: 60px;
+	left: 0!important;
+	top: 0!important;
+	float: none;
+	background: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	background: #9bcbea
+}
+.company .executive-team ul .executive:hover {
+	background: #bdddf1
+}
+.company .executive-team ul .executive .exec-circle {
+	width: 100%;
+	height: 100%;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0
+}
+.company .executive-team ul .executive .exec-circle img {
+	height: 100%;
+	float: left;
+	margin-right: 10px;
+	display: none
+}
+.company .executive-team ul .executive .exec-circle .exec-info {
+	-webkit-transform: scale(1, 1);
+	-moz-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+	-o-transform: scale(1, 1);
+	transform: scale(1, 1);
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	width: 100%;
+	height: 100%;
+	position: static;
+	float: left;
+	padding: 5px!important;
+	opacity: 1;
+	background: 0
+}
+.company .executive-team ul .executive:after {
+	display: none!important
+}
+.company .executive-team .executive-profile {
+	width: 100%;
+	left: 50%;
+	margin-left: -50%;
+	background: #fff;
+	padding:0 15px;
+	top: 0;
+	margin-top:0;
+	-webkit-transform: translate3d(0, -1000px, 0);
+	-moz-transform: translate3d(0, -1000px, 0);
+	-ms-transform: translate3d(0, -1000px, 0);
+	-o-transform: translate3d(0, -1000px, 0);
+	transform: translate3d(0, -1000px, 0)
+}
+.company .executive-team .executive-profile hgroup h1 {
+	font-size: 28px;
+	line-height: 1;
+	margin-bottom: 5px;
+	position:relative;
+}
+.company .executive-team .executive-profile hgroup h4 {
+	line-height: 1
+}
+.company .profile-display .executive-profile {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0)
+}
+
+}
+.lt-ie9 .company .executive-team ul li .exec-circle .exec-info {
+	display: none
+}
+.lt-ie9 .company .executive-team ul li a {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background: url(../images/pixel.png);
+	left: 0;
+	top: 0;
+	zoom: 1
+}
+.lt-ie9 .company .profile-display ul li {
+	display: none;
+	border: 0!important
+}
+.lt-ie9 .company .profile-display ul li:after {
+	border: 0!important
+}
+.lt-ie9 .company .profile-display ul .executive:after {
+	border: 0!important
+}
+
+
